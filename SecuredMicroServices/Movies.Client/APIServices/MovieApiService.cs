@@ -80,18 +80,16 @@ namespace Movies.Client.APIServices
             //var apiClient = new HttpClient();
 
             //// 3. Set the access_token in the request Authorization: Bearer <token>
-            //client.SetBearerToken(tokenResponse.AccessToken);
+            //apiClient.SetBearerToken(tokenResponse.AccessToken);
 
             //// 4. Send a request to our Protected API
-            //var response = await client.GetAsync("https://localhost:5001/api/movies");
+            //var response = await apiClient.GetAsync("https://localhost:5001/api/movies");
             //response.EnsureSuccessStatusCode();
 
             //var content = await response.Content.ReadAsStringAsync();
 
             //var movieList = JsonConvert.DeserializeObject<List<Movie>>(content);
             //return movieList;
-
-
         }
 
         public Task<Movie> GetMovie(string id)
