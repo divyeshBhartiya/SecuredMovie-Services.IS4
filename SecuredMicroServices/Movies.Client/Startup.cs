@@ -16,6 +16,7 @@ using IdentityModel;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using IdentityModel.Client;
 
 namespace Movies.Client
 {
@@ -34,7 +35,8 @@ namespace Movies.Client
             services.AddControllersWithViews();
             services.AddScoped<IMovieApiService, MovieApiService>();
 
-            // Http operations
+
+            // http operations
 
             // 1 create an HttpClient used for accessing the Movies.API
             services.AddTransient<AuthenticationDelegatingHandler>();
