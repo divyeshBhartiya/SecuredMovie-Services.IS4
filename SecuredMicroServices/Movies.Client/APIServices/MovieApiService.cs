@@ -33,7 +33,7 @@ namespace Movies.Client.APIServices
 
             var request = new HttpRequestMessage(
                 HttpMethod.Get,
-                "/movies");
+                "/api/movies");
 
             var response = await httpClient.SendAsync(
                 request, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
