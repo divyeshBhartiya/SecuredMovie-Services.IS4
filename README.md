@@ -3,6 +3,10 @@ Securing microservices with using standalone Identity Server 4.
 
 We’re going to protect our ASP.NET Web MVC and API applications with using OAuth 2 and OpenID Connect in IdentityServer4. Securing your web application and API with tokens, working with claims, authentication and authorization middlewares and applying policies, and so on.
 
+## Big Picture:
+
+![big picture](https://user-images.githubusercontent.com/16538471/131473023-ffab05e2-46b8-4639-85a4-5f6ec9e9d749.JPG)
+
 We will have 3 asp.net core microservices project.
 
 ## Movies.API
