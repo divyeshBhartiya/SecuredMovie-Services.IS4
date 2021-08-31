@@ -50,3 +50,10 @@ Securing API with JWT Bearer Token Authentication
 Build OpenId Connect Interactive Client for Client MVC Application
 
 Developing HttpHandler for Getting Token from IDPClient with IHttpClientFactory
+
+
+# Courtesy:
+
+Mehmet Özkaya
+
+www.udemy.com
